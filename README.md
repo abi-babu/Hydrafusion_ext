@@ -20,6 +20,9 @@ To preprocess the ZOD dataset:
 1. Download the ZOD Mini Sequence dataset from the [Zenseact website](https://zod.zenseact.com/).
 2. Run `zod_process.py` to convert the dataset into `.pkl` format compatible with HydraFusion.
 3. Use `zod_eval.py` to evaluate the model's performance on the processed ZOD data.
+## Requirements
+
+- **PyTorch 1.9**
 
 ## References
 
